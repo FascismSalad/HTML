@@ -1,0 +1,178 @@
+
+/* --BACKGROUND/GENERAL STYLING-- */
+body {
+  background: linear-gradient(to left, white, pink 50%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black;
+  font-family: impact;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 5vh;
+}
+
+li {
+  padding: 3vh;
+}
+
+footer {
+  position: absolute;
+  bottom: 1vh;
+  right: 1vh;
+}
+
+/* --IMAGE STYLING-- */
+.homeImgBox {
+  position: absolute;
+  text-align: left;
+  height: 100vh;
+  margin-left: auto;
+}
+
+.homeImg {
+  max-width: 100vh;
+  max-height: 100vh;
+  margin: auto;
+  border-right: 3px solid black;
+}
+
+/* --TEXT STYLING--*/
+.homeHeading {
+  position: absolute;
+  left: 4vh;
+  top: 2vh;
+  font-size: 5vh;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.homeText {
+  position: absolute;
+  left: 77vh;
+  top: 20vh;
+  font-size: 3vh;
+}
+
+.snack {
+  font-size: 10vh;
+  right: 80vh;
+}
+
+/* --MAIN PAGE MENU-- */
+
+/* Nav Box Styling */
+.navBox1 {
+  position: absolute;
+  right: 0;
+  top: 20vh;
+  list-style-type: none;
+  padding: 3vh;
+  padding-left: 20vh;
+  border: solid black;
+  border-right: none;
+  font-size: 5vh;
+  transition: font-size 0.2s;
+}
+
+.navBox2 {
+  position: absolute;
+  right: 0;
+  top: 37%;
+  list-style-type: none;
+  padding: 3vh;
+  padding-left: 20vh;
+  border: solid black;
+  border-right: none;
+  font-size: 5vh;
+  transition: font-size 0.2s;
+}
+
+.navBox3 {
+  position: absolute;
+  right: 0;
+  top: 54%;
+  list-style-type: none;
+  padding: 3vh;
+  padding-left: 11.2vh;
+  border: solid black;
+  border-right: none;
+  font-size: 5vh;
+  transition: font-size 0.2s;
+}
+
+.navBox1:hover {
+  font-size: 65px;
+}
+
+.navBox2:hover {
+  font-size: 65px;
+}
+
+.navBox3:hover {
+  font-size: 65px;
+}
+
+
+
+
+.test {
+  font-size: 50px;
+}
+
+.map {
+  position: absolute;
+  top: 45vh;
+  left: 85vh;
+  border: solid black;
+}
+
+.aboutme {
+  position: absolute;
+  top: 10vh;
+  left: 10vh;
+  margin-right: 90vh;
+  font-size: 2vh;
+}
+
+.list {
+  position: absolute;
+  top: 40vh;
+  left: 10vh;
+  font-size: 2vh;
+}
+
+
+
+.table {
+  font-size: 3vh;
+  position: absolute;
+  left: 5vh;
+  top: 34vh;
+}
+
+.education {
+  border-collapse: collapse;
+  display: block;
+  text-align: center;
+}
+
+.education td, .education th {
+  border: 3px solid black;
+  padding: 20px;
+}
+
+.education th {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  background-color: #e6cce0;
+  text-align: center;
+}
